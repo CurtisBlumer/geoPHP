@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/phayes/geoPHP.svg?branch=master)](https://travis-ci.org/phayes/geoPHP)
+[![Coverage Status](https://coveralls.io/repos/github/CurtisBlumer/geoPHP/badge.svg?branch=master)](https://coveralls.io/github/CurtisBlumer/geoPHP?branch=master)
 
 [geophp.net](https://geophp.net "GeoPHP homepage")
 
