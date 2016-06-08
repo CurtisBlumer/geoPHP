@@ -6,8 +6,8 @@ language: php
 php:
   - 7.0
   - 5.6
-  - 5.5
   - hhvm
+  - 5.5
   - 5.4
   - 5.3
 
@@ -18,6 +18,7 @@ addons:
 
 matrix:
   allow_failures:
+    - php: 5.5
     - php: 5.4
     - php: 5.3
   fast_finish: true
