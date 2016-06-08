@@ -13,7 +13,8 @@ php:
 
 addons:
   apt:
-    - libgeos-c1
+    packages:
+      - libgeos-c1
 
 matrix:
   allow_failures:
