@@ -17,9 +17,6 @@ matrix:
     - php: 5.3
   fast_finish: false
 
-before_script:
-  #- composer self-update
-
 env: GEOPHP_RUN_TESTS=1
 
 install:
