@@ -1,0 +1,10 @@
+#%YAML 1.2
+
+# The name of the service uploading the data
+service_name: travis-ci
+
+# Where to find the code coverage report
+coverage_clover: tests/logs/coverage/clover.xml
+
+# Unsure what this does
+json_path: tests/logs/coverage/coveralls-upload.json
