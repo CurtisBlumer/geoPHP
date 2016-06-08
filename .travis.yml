@@ -32,7 +32,7 @@ install:
 script:
   - mkdir -p "tests/logs/coverage/"
   - cd tests
-  - php ./vendor/bin/phpunit --coverage-clover "logs/coverage/clover.xml" --verbose --colors --stderr tests
+  - phpunit --coverage-clover logs/coverage/clover.xml --verbose --colors --stderr tests
   - php test.php
 
 after_script:
